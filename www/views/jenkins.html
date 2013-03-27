@@ -1,0 +1,10 @@
+<table class="table table-condensed table-striped">
+	<tbody>
+		<tr ng-repeat="job in jobs">
+			<td><span class="label label-{{job.class}} pull-right">{{job.label}}</span></td>
+			<td>{{job.name}}</td>
+			<td>{{job.date}}</td>
+			<td>{{job.state}}</td>
+		</tr>
+	</tbody>
+</table>

@@ -1,0 +1,18 @@
+
+<table class="table table-condensed table-striped">
+	<thead>
+		<tr>
+			<th>Progetto</th>
+			<th>Segnalazione</th>
+			<th>Assegnato</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat="issue in issues | orderBy:orderProp">
+			<td><strong>{{issue.project}}</strong></td>
+			<td><span class="label label-{{issue.class}}">{{issue.id}}</span>
+				{{issue.subject}}</td>
+			<td>{{issue.developer}}</td>
+		</tr>
+	</tbody>
+</table>

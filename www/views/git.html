@@ -1,0 +1,14 @@
+<table class="table table-condensed table-striped">
+	<thead>
+		<th>Autore</th>
+		<th>Data</th>
+		<th>Commit</th>
+	</thead>
+	<tbody>
+		<tr ng-repeat="commit in commits">
+			<td>{{commit.author}}</td>
+			<td>{{commit.pubDate}}</td>
+			<td>{{commit.title}}</td>
+		</tr>
+	</tbody>
+</table>

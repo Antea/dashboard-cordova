@@ -1,0 +1,58 @@
+<!doctype html>
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<title></title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body ng-app="Dashboard">
+	<script src="phonegap.js"></script>
+	<script src="js/jquery-1.9.1.js"></script>
+	<script src="js/angular.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<!-- 	<script src="http://192.168.10.47:8081/target/target-script-min.js"></script> -->
+	<script src="js/date.js"></script>
+
+	<div class="navbar navbar-fixed-top navbar-inverse">
+		<div class="navbar-inner">
+			<div class="container">
+				<a class="btn btn-navbar" data-toggle="collapse"
+					data-target=".nav-collapse"> <span class="icon-bar"></span> <span
+					class="icon-bar"></span> <span class="icon-bar"></span>
+				</a>
+				<div class="nav-collapse collapse">
+					<ul class="nav" role="navigation">
+						<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+						<li id="navgit" class="active"><a href="#/git">Git</a></li>
+						<li id="navredmine"><a href="#/redmine">RM</a></li>
+						<li id="navsvn"><a href="#/svn">SVN</a></li>
+						<li id="navjenkins"><a href="#/jenkins">Jenkins</a></li>
+						<li id="navbbox"><a href="#/bbox">BBox</a></li>
+					</ul>
+					<img class="brand" src="img/antea_016.png" />
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<p>
+	<h1>&nbsp;</h1>
+	</p>
+	<!-- Add your site or application content here -->
+	<div class="container-fluid">
+		<div ng-view></div>
+	</div>
+
+	<script src="scripts/app.js"></script>
+	<script src="scripts/controllers/git.js"></script>
+	<script src="scripts/controllers/svn.js"></script>
+	<script src="scripts/controllers/jenkins.js"></script>
+	<script src="scripts/controllers/redmine.js"></script>
+	<script src="scripts/controllers/bbox.js"></script>
+
+</body>
+</html>

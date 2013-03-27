@@ -1,0 +1,28 @@
+body {
+  font-size: 10px;
+  line-height: 12px;
+}
+.table th,
+.table td {
+  padding: 3px;
+  line-height: 12px;
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid #dddddd;
+}
+.table-condensed th,
+.table-condensed td {
+  padding: 2px 2px;
+}
+.lowPriority{
+    background-color: lightblue;
+}
+.normalPriority{
+    background-color: white;
+}
+.urgentPriority{
+    background-color: #ffc861;
+}
+.immediatePriority{
+    background-color: #ff5d5d;
+}
