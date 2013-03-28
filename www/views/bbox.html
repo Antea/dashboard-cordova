@@ -4,7 +4,7 @@
 		<tr ng-repeat="state in states">
 			<td><span class="label label-{{state.class}} pull-right">{{state.state}}</span></td>
 			<td>{{state.server}}</td>
-			<td>{{state.name}}</td>
+			<td><a href="{{state.url}}">{{state.name}}</a></td>
 		</tr>
 	</tbody>
 </table>
