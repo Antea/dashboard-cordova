@@ -39,6 +39,6 @@ angular.module('Dashboard').controller('RedmineController', function($scope, $ht
         }
     }
 
-    $("#nav li").removeClass("active");
+    $(".navbutton").removeClass("active");
     $("#navredmine").addClass("active");
 });

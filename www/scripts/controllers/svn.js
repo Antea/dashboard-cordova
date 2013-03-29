@@ -17,6 +17,6 @@ angular.module('Dashboard').controller('SvnController', function($scope, $http, 
         });
     });
 
-    $("#nav li").removeClass("active");
+    $(".navbutton").removeClass("active");
     $("#navsvn").addClass("active");
 });

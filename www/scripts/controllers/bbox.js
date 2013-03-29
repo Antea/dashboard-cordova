@@ -19,6 +19,6 @@ angular.module('Dashboard').controller('BBoxController', function($scope, $http,
         console.error('BBox servers fetch error: ' + status);
     });
 
-    $("#nav li").removeClass("active");
+    $(".navbutton").removeClass("active");
     $("#navbbox").addClass("active");
 });

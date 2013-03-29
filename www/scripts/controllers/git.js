@@ -20,6 +20,6 @@ angular.module('Dashboard').controller('GitController', function($scope, $http, 
         console.log("Error in commit fetch: " + status);
     });
 
-    $("#nav li").removeClass("active");
+    $(".navbutton").removeClass("active");
     $("#navgit").addClass("active");
 });

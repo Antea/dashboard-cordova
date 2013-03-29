@@ -32,6 +32,6 @@ angular.module('Dashboard').controller('JenkinsController', function($scope, $ht
         });
     });
 
-    $("#nav li").removeClass("active");
+    $(".navbutton").removeClass("active");
     $("#navjenkins").addClass("active");
 });
