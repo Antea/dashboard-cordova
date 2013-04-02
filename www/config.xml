@@ -3,7 +3,7 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.anteash.dashboard"
+        id        = "ZSY3MFP3XA.com.anteash.dashboard"
         version   = "0.0.4">
 
     <name>Dashboard</name>
