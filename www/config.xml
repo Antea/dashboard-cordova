@@ -64,14 +64,14 @@
     <gap:splash src="res/screen/android/splash-320x426.png"  gap:platform="android" gap:density="ldpi" />
     <gap:splash src="res/screen/android/splash-320x470.png"  gap:platform="android" gap:density="mdpi" />
     <gap:splash src="res/screen/android/splash-480x640.png"  gap:platform="android" gap:density="hdpi" />
-    <gap:splash src="res/screen/android/splash-960x720.png" gap:platform="android" gap:density="xhdpi" />
-    <gap:splash src="res/screen/ios/splash-320x480.png"    gap:platform="ios"     width="320" height="480" />
-    <gap:splash src="res/screen/ios/splash-640x960.png" gap:platform="ios"     width="640" height="960" />
-    <gap:splash src="res/screen/ios/splash-640x1136.png" gap:platform="ios"     width="640" height="1136" />
-    <gap:splash src="res/screen/ios/splash-768x1024.png"      gap:platform="ios"     width="768" height="1024" />
+    <gap:splash src="res/screen/android/splash-960x720.png"  gap:platform="android" gap:density="xhdpi" />
+    <gap:splash src="res/screen/ios/splash-320x480.png"      gap:platform="ios"     width="320" height="480" />
+    <gap:splash src="res/screen/ios/splash-640x960.png"      gap:platform="ios"     width="640" height="960" />
+    <gap:splash src="res/screen/ios/splash-640x1136.png"     gap:platform="ios"     width="640" height="1136" />
+    <gap:splash src="res/screen/ios/splash-768x1024.png"     gap:platform="ios"     width="768" height="1024" />
     <gap:splash src="res/screen/ios/splash-1024x768.png"     gap:platform="ios"     width="1024" height="768" />
-    <gap:splash src="res/screen/windows-phone/screen-portrait.jpg" gap:platform="winphone" />
-    <gap:splash src="res/screen/blackberry/screen-225.png"         gap:platform="blackberry" />
+<!--     <gap:splash src="res/screen/windows-phone/screen-portrait.jpg" gap:platform="winphone" /> -->
+<!--     <gap:splash src="res/screen/blackberry/screen-225.png"         gap:platform="blackberry" /> -->
     
     <!--
         Define access to external domains.
