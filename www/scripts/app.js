@@ -15,6 +15,6 @@ angular.module('Dashboard', []).config(function($routeProvider) {
 		templateUrl : 'views/bbox.html',
 		controller : 'BBoxController'
 	}).otherwise({
-		redirectTo : '/git'
+		redirectTo : '/bbox'
 	});
 });
